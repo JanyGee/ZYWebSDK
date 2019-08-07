@@ -1,0 +1,122 @@
+/* 
+  Localizable.strings
+  ZYWebSDKDemo
+
+  Created by zhangyu on 2019/8/6.
+  Copyright © 2019 Octopus. All rights reserved.
+*/
+"pull_refresh" = "下拉可以刷新";
+"loosen_refresh" = "松開立即刷新";
+"refreshing" = "正在刷新數據中...";
+"push_load_more" = "上拉可以加載更多";
+"loosen_refresh_more" = "松開立即加載更多";
+"loading_more_data" = "正在加載更多的數據...";
+"finish_load" = "已經全部加載完畢";
+
+"no_net" = "無網絡";
+"request_rime_out" = "請求超時";
+"alert" = "提示";
+"ok" = "確定";
+"try_again" = "重試";
+
+"auton_login" = "自動登錄中...";
+"login" = "登錄";
+"pwd_no_null" = "密碼不能為空";
+"account_login" = "賬號登錄";
+"pls_input_account" = "請輸入賬號";
+"account_no_null" = "賬號不能為空";
+"ple_input_pwd" = "請輸入密碼";
+"forget_pwd" = "忘記密碼？";
+"regist" = "註冊";
+"cus_login" = "遊客登錄";
+
+"account_reg" = "賬號註冊";
+"pls_account_del" = "*請輸入賬號(只能用數字、字母、郵箱)";
+"pwd_limit" = "*密碼由大小寫字母或者數字組成長度為6~30位";
+"comfirm_pwd" = "請確認密碼";
+"pwd_dif" = "*兩次輸入的密碼不壹致";
+"read_ag" = "我已經閱讀並同意";
+"user_pro" = "《用戶註冊協議》";
+"pls_agree_pro" = "*請同意用戶協議";
+"one_login" = "壹鍵登錄";
+
+"user_pro_del" = "用戶協議";
+"game_pro" = "遊戲隱私政策";
+"game_use" = "遊戲使用許可及服務協議";
+"recive" = "接受";
+
+"time_down" = "秒後重發";
+"get_code" = "獲取驗證碼";
+"phone_reg" = "手機註冊";
+"pls_input_phone" = "請輸入手機號";
+"pls_right_phone" = "*請輸入正確的手機號";
+"pls_code" = "請輸入驗證碼";
+"word_reg" = "字母賬號註冊";
+
+"charge_record" = "充值記錄";
+"no_data" = "暫無數據";
+
+"init_state" = "初始化狀態";
+"charge_success" = "充值成功";
+"order_dul" = "訂單重復";
+"verify_fail" = "驗證失敗";
+"charge_fail" = "支付失敗";
+"no_res" = "沒有響應";
+
+"pre_step" = "上壹步";
+"safe_email" = "密保郵箱";
+"binded_email" = "已綁定郵箱";
+"ple_input_email" = "*請輸入正確的郵箱";
+"pls_bind_email" = "請輸入要綁定的郵箱";
+"safe_phone" = "密保手機";
+"binded_phone" = "已綁定手機";
+"pls_bind_phone" = "請輸入要綁定的手機號";
+"safe_center" = "安全中心";
+"person_verify" = "身份驗證";
+"compelet_verify" = "完成驗證";
+"pls_login_pwd" = "請輸入登錄密碼";
+"update_bind" = "修改綁定";
+"pls_input_email" = "請輸入郵箱";
+"next" = "下壹步";
+"pls_login_pwd_star" = "*請輸入登錄密碼";
+
+"update_pwd" = "修改密碼";
+"pls_input_original_pwd" = "輸入原始密碼";
+"pls_input_star" = "*請輸入原密碼";
+"pls_input_new_pwd" = "輸入新密碼";
+"comfirm_new_pwd" = "確認新密碼";
+"diffrent_pwd" = "*兩次輸入的密碼不壹致";
+
+"update_bind_pwd" = "修改綁定手機號";
+"setted" = "已設置";
+
+"account" = "帳號";
+"not_set" = "未設置";
+"person_center" = "個人中心";
+"update_bind_email" = "修改綁定郵箱";
+"back_game" = "返回遊戲";
+
+"custom_account" = "遊客賬號";
+"custom_pwd" = "遊客密碼";
+"custom_alert" = "此圖為遊戲平臺恢復碼，用於恢復您創建的遊客賬號，為保證賬號安全，請您盡快升級賬號。";
+
+"code_sended" = "*驗證碼已經發送請註意查收";
+"pls_code_star" = "*請輸入驗證碼";
+"forget_password" = "忘記密碼";
+"pls_email_phone" = "請輸入郵箱或手機號";
+"pls_email_phone_star" = "*請輸入正確的郵箱或者手機號";
+"pls_input_pwd_again" = "請再次輸入密碼";
+
+"network_bad" = "網絡環境差，請重試";
+"pls_check_net" = "請檢查您的網絡環境";
+"pls_login" = "請登錄";
+"no_parameter" = "缺少下單參數";
+"change_cancel" = "支付取消";
+"no_fine_product" = "沒有找到商品";
+"account_no_login" = "沒有帳號可退出";
+"no_bind_parameter" = "缺少綁定參數";
+"no_sub_parameter" = "缺少提交信息參數";
+"parameter_wrong" = "參數獲取錯誤";
+"update_pwd_success" = "修改密碼成功";
+"bind_success" = "綁定成功";
+"security_pro" = "隱私協議";

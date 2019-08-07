@@ -1,0 +1,16 @@
+PODS:
+  - ZYWebSDK (2.0)
+
+DEPENDENCIES:
+  - ZYWebSDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ZYWebSDK
+
+SPEC CHECKSUMS:
+  ZYWebSDK: 943f4501a954bd5e6c97bf2a8109e8a7331888a7
+
+PODFILE CHECKSUM: a2c0b20a9ac9c48a92fbb96b27a9a9516b037522
+
+COCOAPODS: 1.7.5
