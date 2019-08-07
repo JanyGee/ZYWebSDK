@@ -21,8 +21,8 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/JanyGee/ZYWebSDK.git", :tag => "#{spec.version}" }
 
-  spec.vendored_frameworks = 'ZYWebSDK/Frameworks/ZYWebSDK.framework'
-  spec.resources = "ZYWebSDK/Resources/ZYWebSDKBundle.bundle"
+  spec.vendored_frameworks = 'Frameworks/ZYWebSDK.framework'
+  spec.resources = "Resources/ZYWebSDKBundle.bundle"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
