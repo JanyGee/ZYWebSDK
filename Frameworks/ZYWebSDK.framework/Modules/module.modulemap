@@ -1,0 +1,6 @@
+framework module ZYWebSDK {
+  umbrella header "ZYWebSDK.h"
+
+  export *
+  module * { export * }
+}
