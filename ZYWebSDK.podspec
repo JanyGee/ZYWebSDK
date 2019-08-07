@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Jany" => "1321899953@qq.com" }
   spec.platform     = :ios, "8.0"
 
-  spec.source       = { :git => "http://github.com/JanyGee/ZYWebSDK.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/JanyGee/ZYWebSDK.git", :tag => "#{spec.version}" }
 
   spec.vendored_frameworks = 'ZYWebSDK/Frameworks/ZYWebSDK.framework'
   spec.resources = "ZYWebSDK/Resources/ZYWebSDKBundle.bundle"
