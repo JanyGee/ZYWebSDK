@@ -26,9 +26,11 @@
 2.使用方法；
 
 ·2.1.初始化，对应参数平台会提供；
+
     [[ZYWebSDKManager shareZYWebSDKManager] initWithGameKey:@"xxxxxxx" promoteID:@"xxx" gameAppID:@"xxxx"];
 
 ·2.2.登录监听；
+
     __weak typeof(self) weakSelf = self;
     [[ZYWebSDKManager shareZYWebSDKManager] loginSuccess:^(NSDictionary * _Nonnull dic) {
         NSLog(@"登录成功----%@",dic);
@@ -80,6 +82,7 @@
     }];
 
 ·2.5.注销登录
+
     [[ZYWebSDKManager shareZYWebSDKManager] logoutSuccess:^{
         NSLog(@"退出成功");
     } fail:^{
