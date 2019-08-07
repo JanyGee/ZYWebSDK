@@ -6,18 +6,21 @@
 
 
 1.接入SDK；
+自动集成
+·1.1.通pod方式集成，集成指令:pod ‘ZYWebSDK’，版本从2.0开始;
 
-·1.1.导入ZYWebSDK.framework、ZYWebSDKBundle.bundle文件；注意导入时的勾选项，如下图：
-
-
-
-·1.1.在项目的info.plist文件中一定要加入NSPhotoLibraryAddUsageDescription、NSPhotoLibraryUsageDescription两个获取用户权限的key，描述说明一定要写清楚，还需要设置App Transport Security Settings；
-
-
-·1.2.在项目的Build Settings中设置Other Linker Flags -> -ObjC;
+手动集成
+·1.2.导入ZYWebSDK.framework、ZYWebSDKBundle.bundle文件；注意导入时的勾选项，如下图：
 
 
-·1.6.需要导入libsqlite3.0.tbd和StoreKit.framework;
+
+·1.3.在项目的info.plist文件中一定要加入NSPhotoLibraryAddUsageDescription、NSPhotoLibraryUsageDescription两个获取用户权限的key，描述说明一定要写清楚，还需要设置App Transport Security Settings；
+
+
+·1.4.在项目的Build Settings中设置Other Linker Flags -> -ObjC;
+
+
+·1.5.需要导入libsqlite3.0.tbd和StoreKit.framework;
 
 
 
@@ -43,6 +46,7 @@
 
 
 ·2.3.提交角色信息，输入参数有限制且参数固定；
+
     NSDictionary *dic = @{
                           @"gameZoneId":@"1",
                           @"gameZoneName":@"2",
