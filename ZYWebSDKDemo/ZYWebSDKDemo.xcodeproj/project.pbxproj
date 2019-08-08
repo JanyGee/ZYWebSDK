@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -92,7 +92,6 @@
 				F1F2CA342DB93DD8D8D046F0 /* Pods-ZYWebSDKDemo.debug.xcconfig */,
 				1D11CFDD578BEC1836D3EA80 /* Pods-ZYWebSDKDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -357,6 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74354672Z5;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ZYWebSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -376,6 +376,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74354672Z5;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ZYWebSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
