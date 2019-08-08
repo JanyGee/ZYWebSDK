@@ -6,5 +6,5 @@ target 'ZYWebSDKDemo' do
   use_frameworks!
 
   # Pods for ZYWebSDKDemo
-pod 'ZYWebSDK'
+  pod 'ZYWebSDK'
 end
