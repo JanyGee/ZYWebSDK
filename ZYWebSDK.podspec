@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ZYWebSDK"
-  spec.version      = "2.0.1"
+  spec.version      = "2.1.0"
   spec.summary      = "掌娱炫动官网SDK"
 
   spec.homepage     = "http://www.zh-games.com"
