@@ -20,6 +20,7 @@
 "try_again" = "重试";
 
 "auton_login" = "自动登录中...";
+"cancel_auton_login" = "取消自动登录";
 "login" = "登录";
 "pwd_no_null" = "密码不能为空";
 "account_login" = "账号登录";

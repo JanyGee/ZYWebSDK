@@ -20,6 +20,7 @@
 "try_again" = "重試";
 
 "auton_login" = "自動登錄中...";
+"cancel_auton_login" = "取消自動登錄";
 "login" = "登錄";
 "pwd_no_null" = "密碼不能為空";
 "account_login" = "賬號登錄";
