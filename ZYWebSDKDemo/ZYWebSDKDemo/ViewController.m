@@ -17,28 +17,38 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+- (IBAction)login:(id)sender {
+    
     __weak typeof(self) weakSelf = self;
     [[ZYWebSDKManager shareZYWebSDKManager] loginSuccess:^(NSDictionary * _Nonnull dic) {
         NSLog(@"登录成功----%@",dic);
+        /*
+         返回字段说明
+         userid：用户id
+         token：token验证
+         */
         __strong typeof (weakSelf)strongSelf = weakSelf;
         strongSelf.userId = [NSString stringWithFormat:@"%@", [dic objectForKey:@"userId"]];
     } failRes:^{
         NSLog(@"登录失败");
     }];
+    
 }
 
 //购买
 - (IBAction)shopping:(id)sender {
     
     NSDictionary *dic = @{
-                          @"goodsPrice":@"6.00",
-                          @"productId":@"1733",
-                          @"gameOrderId":[self randomNumberNO],
-                          @"gameZoneId":@"2",
-                          @"roleId":@"22",
-                          @"level":@"222",
-                          @"notifyUrl":@"https://www.baidu.com",
-                          @"cpPrivateInfo":@"sddaaddd"
+                          @"goodsPrice":@"6.00",                //商品价格
+                          @"productId":@"1175",                 //商品ID
+                          @"gameOrderId":[self randomNumberNO], //订单号，[self randomNumberNO]这是测试参数，请填入游戏给到的参数
+                          @"gameZoneId":@"2",                   //游戏区服ID
+                          @"roleId":@"22",                      //角色ID
+                          @"level":@"222",                      //角色等级
+                          @"notifyUrl":@"https://www.baidu.com",//回调地址
+                          @"cpPrivateInfo":@"sddaaddd"          //透传参数，给渠道预留的参数，如果不用请传@""
                           };
     
     [[ZYWebSDKManager shareZYWebSDKManager] shoppingWithParameter:dic successRes:^{
@@ -61,13 +71,13 @@
 - (IBAction)bindGameZone:(id)sender {
     
     NSDictionary *dic = @{
-                          @"gameZoneId":@"1",
-                          @"gameZoneName":@"11",
-                          @"guildName":@"11",
-                          @"roleId":@"11",
-                          @"level":@"22",
-                          @"roleName":@"jany",
-                          @"vipLevel":@"11"
+                          @"gameZoneId":@"1",   //游戏区服ID
+                          @"gameZoneName":@"11",//游戏区服名称
+                          @"guildName":@"11",   //公会名称
+                          @"roleId":@"11",      //角色ID
+                          @"level":@"22",       //角色等级
+                          @"roleName":@"jany",  //角色名称
+                          @"vipLevel":@"11"     //角色VIP等级
                           };
     
     [[ZYWebSDKManager shareZYWebSDKManager] bindGameZoneWithParameter:dic success:^{
@@ -81,15 +91,15 @@
 - (IBAction)submit:(id)sender {
     
     NSDictionary *dic = @{
-                          @"gameZoneId":@"1",
-                          @"gameZoneName":@"2",
-                          @"guildName":@"aa",
-                          @"roleBalance":@"2",
-                          @"roleId":@"22",
-                          @"level":@"222",
-                          @"roleName":@"jany",
-                          @"vipLevel":@"11",
-                          @"submitType":@"1"// 1: 进入游戏   2: 创建角色    3: 角色升级     4: 退出游戏
+                          @"gameZoneId":@"1",   //游戏区服ID
+                          @"gameZoneName":@"2", //游戏区服名称
+                          @"guildName":@"aa",   //公会名称
+                          @"roleBalance":@"2",  //金币
+                          @"roleId":@"22",      //角色ID
+                          @"level":@"222",      //角色等级
+                          @"roleName":@"jany",  //角色名字
+                          @"vipLevel":@"11",    //角色VIP等级
+                          @"submitType":@"1"    // 1: 进入游戏   2: 创建角色    3: 角色升级
                           };
     
     [[ZYWebSDKManager shareZYWebSDKManager] submitGameWithParameter:dic success:^{
