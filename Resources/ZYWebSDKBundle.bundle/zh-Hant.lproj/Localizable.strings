@@ -123,6 +123,11 @@
 "bind_success" = "綁定成功";
 "security_pro" = "隱私協議";
 
+"recharge_amount" = "充值金額";
+"recharge_type" = "充值類型";
+"recharge_num" = "交易流水";
+"recharge_state" = "充值狀態";
+
 //服務器響應code對應解釋
 "200" = "成功";
 "500" = "服務器異常";

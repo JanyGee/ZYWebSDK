@@ -123,6 +123,11 @@
 "bind_success" = "绑定成功";
 "security_pro" = "隐私协议";
 
+"recharge_amount" = "充值金额";
+"recharge_type" = "充值类型";
+"recharge_num" = "交易流水";
+"recharge_state" = "充值状态";
+
 //服务器响应code对应解释
 "200" = "成功";
 "500" = "服务器异常";
