@@ -31,9 +31,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /**
- 登录状态回调
+ 弹出登录界面
 
- @param success 成功回调
+ @param success 成功回调 userid：用户id token：token验证
  @param fail 失败回调
  */
 - (void)loginSuccess:(void(^)(NSDictionary *dic))success failRes:(void(^)(void))fail;
