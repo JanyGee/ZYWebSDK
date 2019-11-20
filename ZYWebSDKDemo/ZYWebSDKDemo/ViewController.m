@@ -46,6 +46,7 @@
                           @"gameOrderId":[self randomNumberNO], //订单号，[self randomNumberNO]这是测试参数，请填入游戏给到的参数
                           @"gameZoneId":@"2",                   //游戏区服ID
                           @"roleId":@"22",                      //角色ID
+                          @"roleName":@"Mike",                  //角色名字
                           @"level":@"222",                      //角色等级
                           @"notifyUrl":@"https://www.baidu.com",//回调地址
                           @"cpPrivateInfo":@"sddaaddd"          //透传参数，给渠道预留的参数，如果不用请传@""

@@ -26,8 +26,10 @@ NS_ASSUME_NONNULL_BEGIN
  @param gameKey 掌娱后台生成的gamekey
  @param promoteID 掌娱后台生成的promoteID
  @param gameAppID 掌娱后台生成的gameAppID
+ @param success 成功回调
+ @param fail 失败回调
  */
-- (void)initWithGameKey:(NSString *)gameKey promoteID:(NSString *)promoteID gameAppID:(NSString *)gameAppID;
+- (void)initWithGameKey:(NSString *)gameKey promoteID:(NSString *)promoteID gameAppID:(NSString *)gameAppID success:(void(^)(void))success fail:(void(^)(void))fail;
 
 
 /**
@@ -89,6 +91,7 @@ NS_ASSUME_NONNULL_BEGIN
  @"roleId":@"",         //角色ID
  @"level":@"",          //角色等级
  @"notifyUrl":@""       //回调地址
+ @"roleName":@""        //角色名字
  @"cpPrivateInfo":@""   //透传参数，给渠道预留的参数，如果不用请传@""
  }）以上参数为必传⚠️
  @param success 成功回调
